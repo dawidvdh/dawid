@@ -1,6 +1,6 @@
 {
   "name": "dawid",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "dawid cli",
   "main": "index.js",
   "bin": {
@@ -8,7 +8,10 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
+	},
+	"files": [
+		"src"
+	],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dawidvdh/dawid.git"
