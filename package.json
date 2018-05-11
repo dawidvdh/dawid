@@ -1,8 +1,11 @@
 {
   "name": "dawid",
   "version": "1.0.0",
-  "description": "",
+  "description": "dawid cli",
   "main": "index.js",
+  "bin": {
+    "dawid": "src/cli.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,11 +13,18 @@
     "type": "git",
     "url": "git+https://github.com/dawidvdh/dawid.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "cli-app",
+    "cli",
+    "dawid"
+  ],
+  "author": "Dawid van der Hoven <hello@dawid.codes> (https://dawid.codes/)",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/dawidvdh/dawid/issues"
   },
-  "homepage": "https://github.com/dawidvdh/dawid#readme"
+  "homepage": "https://github.com/dawidvdh/dawid#readme",
+  "dependencies": {
+    "opn": "^5.3.0"
+  }
 }
